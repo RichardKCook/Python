@@ -1,0 +1,12 @@
+import random
+
+x = float(input("enter a number for x:"))
+y = float(input("input a number for y:"))
+
+if x==y:
+    if y!=0:
+        print("x/y is:", x/y)
+elif x>y:
+    print("x is greater than y by", x-y ,"positions")
+else:
+    print("y is greater than x by", y-x ,"positions")

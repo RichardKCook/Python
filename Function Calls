@@ -1,0 +1,10 @@
+def add(x,y):
+    return x+y
+
+def mult(x,y):
+    print(x*y)
+
+add(2,3)
+print(add(3,4))
+mult(1,2)
+print(mult(4,5))
